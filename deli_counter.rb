@@ -12,7 +12,7 @@ def line(katz_deli)
     line.push("The line is currently: #{i+1}. #{element}")
     end
     return line
-      if (katz_deli.length == 0) 
+      if (line.length == 0) 
         puts "The line is currently empty."
     end
 end
