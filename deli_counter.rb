@@ -12,7 +12,7 @@ def line(katz_deli)
     end
     line = []
     katz_deli.each_with_index do |element,i|
-      line.push("The line is currently: #{i+1}. #{element}")
+    line.push("The line is currently: #{i+1}. #{element}")
     end
     return line
 end
