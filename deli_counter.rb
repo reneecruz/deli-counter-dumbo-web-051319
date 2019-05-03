@@ -7,8 +7,8 @@ def line(katz_deli)
   
     current_line = []
     katz_deli.each_with_index do |element,i|
-    current_line = "The line is currently: "
-    current_line.push('#{i+1}. #{element})
+    current_line.push("The line is currently: '#{i+1}. #{element})"
+
     end
     current_line
 end
