@@ -1,10 +1,4 @@
-# Write your code here.
-
-#def assign_rooms(attendees)
-#  attendees.each_with_index.map do |attendee, index|
-#    "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
-#  end
-#end
+# write your code here
 
 def line(katz_deli) 
     if (katz_deli.length == 0) 
