@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |element,i|
     current_line.push("The line is currently: #{i+1}. #{element}")
     end
-    puts current_line
+    return current_line
     katz_deli = current_line
 end
 
