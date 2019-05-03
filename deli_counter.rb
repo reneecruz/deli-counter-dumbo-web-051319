@@ -9,6 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |element,i|
     current_line = "The line is currently: #{i+1}. #{element}"
     end
+    current_line
 end
 
 def take_a_number(katz_deli, name) 
