@@ -25,7 +25,6 @@ def line(katz_deli)
       line.push("The line is currently: #{i+1}. #{element}")
     end
     return line
-    
 end
 
 def take_a_number(katz_deli, name) 
