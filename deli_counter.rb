@@ -6,12 +6,21 @@
 #  end
 #end
 
+def assign_rooms(attendees)
+  rooms = []
+  attendees.each_with_index do |attendee, index|
+  rooms.push("Hello, #{attendee
+  }! You'll be assigned to room #{index+1}!")
+  end
+  return rooms
+end
+
 katz_deli = []
 def line(katz_deli) 
     if (katz_deli.length == 0) 
         puts "The line is currently empty."
     end
-    
+    line = []
     katz_deli.each_with_index do |element,i|
       puts "The line is currently: #{i+1}. #{element}"
     end
