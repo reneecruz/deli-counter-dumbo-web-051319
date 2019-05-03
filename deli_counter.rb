@@ -5,7 +5,6 @@ def line(katz_deli)
         puts "The line is currently empty."
     end
   
-    current_line = []
     katz_deli.each_with_index do |element,i|
     current_line = "The line is currently: "
     current_line.push('#{i+1}. #{element}')
